@@ -16,14 +16,14 @@ _**Methodology**_
 
 _**Results**_
 
-| Method  | KMeans | KMeans PSO |
-| ------------- | ------------- | ------------ |
-| Dataset | DB Index          Silhouette Index | DB Index         Silhouette Index |
-| High | 0.99316               0.044056 | 0.499879              0.598376 |
-| Low | 0.98635                0.079333 | 0.492837                0.694484 |
-| Close |0.98474                0.046373 |0.474543                0.634368 |
-| Open |0.93643                0.056383 | 0.547732                0.745483 |
-| Volume | 0.99736                0.043367 | 0.498746               0.648464 |
+| Method | K-Means PSO     | K-Means PSO with Autoencoders |
+| -------- | --------------------- | --------------------- |
+| Dataset  | DB Index&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silhouette Index| DB Index&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silhouette Index|
+| High     | 0.99316&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.044056| 0.499879&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.598376|
+| Low      | 0.98635&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.079333| 0.492837&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.694484|
+| Close    | 0.98474&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.046373| 0.474543&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.634368|
+| Open     | 0.93643&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.056383| 0.547732&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.745483|
+| Volume   | 0.99736&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.043367| 0.498746&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.648464|
 
 _**Conclusion**_
 Based on the evaluation metrics, used to measure the quality of clustering such as DB-index and Silhouette index, the PSO and K-means algorithm with autoencoders outperformed compared to PSO and K-means without autoencoders.​
