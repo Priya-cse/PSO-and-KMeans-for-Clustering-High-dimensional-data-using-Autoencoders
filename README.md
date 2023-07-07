@@ -1,6 +1,7 @@
 # Enhancing the Performance of the PSO Algorithm for Clustering High dimensional data using Autoencoders
 
 _**Abstract**_
+
 The emergence of big data has brought new challenges in processing and analyzing large and complex datasets due to their high dimensionality. Unsupervised learning techniques like clustering have become powerful tools for identifying patterns and relationships in data without the need for labeled examples. One popular Unsupervised data clustering technique is K-means and Particle Swarm Optimization(PSO). Using K-means clustering with optimization can lead to better clustering results by combining the strengths of both algorithms. To automate the data clustering, the Elbow method is implemented, which provides the K value for implementing K-means and PSO. Clustering high-dimensional data can be challenging due to the curse of dimensionality, where the number of dimensions dramatically outnumbers the number of data points. Therefore, a dimensionality reduction technique must be employed to enhance the performance of clustering high-dimensional data. Thus, we used Autoencoder as one of the dimensionality reduction techniques with K-means and PSO clustering and compared the clustering performance on reduced and original data
 
 _**Objectives**_
