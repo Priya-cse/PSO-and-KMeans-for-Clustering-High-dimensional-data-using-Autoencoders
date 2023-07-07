@@ -18,8 +18,7 @@ _**Results**_
 
 | Method  | KMeans | KMeans PSO |
 | ------------- | ------------- | ------------ |
-| Dataset | DB Index  Silhouette Index | DB Index  Silhouette Index |
-| ------------- | ------------- | ------------ |
+| Dataset | DB Index          Silhouette Index | DB Index         Silhouette Index |
 | High | 0.99316               0.044056 | 0.499879              0.598376 |
 | Low | 0.98635                0.079333 | 0.492837                0.694484 |
 | Close |0.98474                0.046373 |0.474543                0.634368 |
