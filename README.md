@@ -26,6 +26,7 @@ _**Results**_
 | Volume   | 0.99736&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.043367| 0.498746&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.648464|
 
 _**Conclusion**_
+
 Based on the evaluation metrics, used to measure the quality of clustering such as DB-index and Silhouette index, the PSO and K-means algorithm with autoencoders outperformed compared to PSO and K-means without autoencoders.​
 		
 		
